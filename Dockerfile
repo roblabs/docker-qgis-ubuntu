@@ -8,7 +8,8 @@ FROM dorowu/ubuntu-desktop-lxde-vnc
 
 
 ### LABEL
-https://docs.docker.com/engine/reference/builder/#label
+# https://docs.docker.com/engine/reference/builder/#label
+# docker inspect roblabs/qgis:ubuntu | json 0 | json Config.Labels
 LABEL maintainer="roblabs <https://RobLabs.com>"
 LABEL version="3.14.159"
 LABEL description="qgis:ubuntu"
